@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1">
+    <title>Awax</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/awax.css">
+</head>
+<body>
+    <header>
+        <div class="header"> <!--Menu-->
+            <div class="logo">
+                <img class='logoimg' src="assets/img/Logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <img class="menu-opener" src="assets/img/icones/menu.png">
+                <nav>
+                    <ul>
+                        <li class="active"><a href='#'>Home</a></li>
+                        <li><a href='#'>About us</a></li>
+                        <li><a href='#'>Services</a></li>
+                        <li><a href='#'>Our Projects</a></li>
+                        <li><a href='#'>Our team</a></li>
+                        <li><a href='#'>Happy clients </a></li>
+                        <li><a href='#'>Price</a></li>
+                        <li><a href='#'>Some facts</a></li>
+                        <li><a href='#'>Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> <!--Fim do menu-->
+
+    <main>
+        <section class="banner"> <!--Começo de banner+ slider-->
+            <div class="sliders" style="margin-left:0"> <!--Vai incluir todos os slides-->
+            <!--Considerando, por exemplo, que cada slide tenha 1000 de width
+            o slider tem que ter 3000 para conseguir abrigar os 3 slides de 1000-->
+            <!--Caso queira outros slides, mudar o margin left para -100vw
+            para aparecer o segundo, por exemplo-->    
+            <div class="slide"> <!--Criar um slide-->
+                <div class="slidearea" >
+                    <h1>Design is about<br><span>Comunication</span></h1>
+                    <h2>Call us: +00 0 1234 5678</h2>
+
+                    <a href="#" class="button">Get in touch</a>
+                </div>
+                </div><div class="slide"> <!--Criar um slide-->
+                    <div class="slidearea">
+                        <h1>Design is about<br><span>Algo</span></h1>
+                        <h2>Call us: +00 0 1234 5678</h2>
+
+                        <a href="#" class="button">Get in touch</a>
+                    </div>
+                </div><div class="slide"> <!--Criar um slide-->
+                    <div class="slidearea">
+                        <h1>Design is about<br><span>Something</span></h1>
+                        <h2>Call us: +00 0 1234 5678</h2>
+
+                        <a href="#" class="button">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-pointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+        </section> <!--Fim da section banner -->
+
+        <section class="default light"> <!--padrao LIGHT-->
+            <div class="section-title">
+                About us
+            </div>
+            <div class="section-desc">
+                Who we are? 
+            </div>
+            <div class="section-body">
+                <div class="section-aboutus">
+                    <div class="section-aboutus--left">
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s 
+                        is reproduced below for those interested. Sections 1.10.32 and 
+                        1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also 
+                        reproduced in their exact original form, accompanied by English 
+                        versions from the 1914 translation by H. Rackham.</p>
+                        <br>
+                        <a href="#" class="button">Learn more</a>
+                    </div>
+                    <div class="section-aboutus--right">
+                        <img src="media/foto9.jpg" alt="futebol">
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fim padrão light-->
+        <section class="default dark"> <!--padrao DARK -->
+            <div class="section-title">
+                Services
+            </div>
+            <div class="section-desc">
+                Services that we provide
+            </div>
+            <div class="section-body">
+                <div class="section-services">
+                    <div class="section-service">
+                        <img src="assets/img/icones/medalha.png">
+                        <h4>High quality design</h4>
+                        <p>Finibus Bonorum et</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/img/icones/estrela.png">
+                        <h4>Modern design</h4>
+                        <p>Finibus Bonorum et bla nurniv</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/img/icones/relogio.png">
+                        <h4>Regular updates</h4>
+                        <p>Finibus Bonorum et</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/img/icones/balao.png">
+                        <h4>Fast and free suport</h4>
+                        <p>Finibus Bonorum et, tincidunt sed</p>
+                    </div>
+        
+                </div>
+            </div>
+        </section> <!--Fim padrão dark-->
+        <section class="default light"> <!--padrao LIGHT --- Projects-->
+            <div class="section-title">Our projects</div>
+            <div class="section-desc">What we create?</div>
+            <div class="section-body">
+                <div class="section-projects">
+                    <div class="section-projects--filters">
+                        <ul>
+                            <li>All</li>
+                            <li class="active">Photos</li>
+                            <li>Branding</li>
+                            <li>Adverts</li>
+                            <li>Development</li>
+                            <li>Misc</li>
+                        </ul>
+                    </div>
+                    <div class="section-projects--photos"> <!--AREA DE PHOTOS-->
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                <!--Photoinfo = informações da foto-->
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto1.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto2.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto3.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto4.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto5.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto6.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto1.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto2.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto3.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto4.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto5.jpg">
+                            </div>
+                        </div>
+                        <div class="section-projects-photo">
+                            <div class="section-projects-photoarea">
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vest something i dont know</p>
+                                </div>
+                                <img src="media/foto6.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="button">More projects</a>
+                </div>
+            </div>
+        </section> <!--Fim padrão light --- PROJECTS-->
+
+        <section class="default dark bg-team"> <!--padrao DARK - TEAM-->
+            <div class="section-team-area">
+                <div class="section-title">Our team</div>
+                <div class="section-desc">
+                    Our co-workers
+                </div>
+                <div class="section-body">
+                    <div class="section-team">      
+                        <div class="sliders" style="margin-left:0"> 
+                            <div class="slide"> <!--Criar um slide-->
+                                <div class="slidearea">
+                                    <img class="section-team-avatar" src="media/mulher1.png" alt="mulher">
+                                    <div class="section-team-name">Jane Doe</div>
+                                    <div class="section-team-role">Master mind</div>
+                                    <div class="section-team-social">
+                                        <a href="#"><img src="assets/img/icones/facebook.png"></a>
+                                        <a href="#"><img src="assets/img/icones/googleplus.png"></a>
+                                        <a href="#"><img src="assets/img/icones/linkedin.png"></a>
+                                        <a href="#"><img src="assets/img/icones/pinterest.png"></a>
+                                        <a href="#"><img src="assets/img/icones/twitter.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide"> <!--Criar um slide-->
+                                <div class="slidearea">
+                                    <img class="section-team-avatar" src="media/homem1.png" alt="mulher">
+                                    <div class="section-team-name">Mike Chiler</div>
+                                    <div class="section-team-role">Creative head</div>
+                                    <div class="section-team-social">
+                                        <a href="#"><img src="assets/img/icones/facebook.png"></a>
+                                        <a href="#"><img src="assets/img/icones/googleplus.png"></a>
+                                        <a href="#"><img src="assets/img/icones/linkedin.png"></a>
+                                        <a href="#"><img src="assets/img/icones/pinterest.png"></a>
+                                        <a href="#"><img src="assets/img/icones/twitter.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide"> <!--Criar um slide-->
+                                <div class="slidearea">
+                                    <img class="section-team-avatar" src="media/mulher2.png" alt="mulher">
+                                    <div class="section-team-name">Anna Johns</div>
+                                    <div class="section-team-role">Technical Lead</div>
+                                    <div class="section-team-social">
+                                        <a href="#"><img src="assets/img/icones/facebook.png"></a>
+                                        <a href="#"><img src="assets/img/icones/googleplus.png"></a>
+                                        <a href="#"><img src="assets/img/icones/linkedin.png"></a>
+                                        <a href="#"><img src="assets/img/icones/pinterest.png"></a>
+                                        <a href="#"><img src="assets/img/icones/twitter.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide"> <!--Criar um slide-->
+                                <div class="slidearea">
+                                    <img class="section-team-avatar" src="media/homem1.png" alt="mulher">
+                                    <div class="section-team-name">Mike Chiler</div>
+                                    <div class="section-team-role">Creative head</div>
+                                    <div class="section-team-social">
+                                        <a href="#"><img src="assets/img/icones/facebook.png"></a>
+                                        <a href="#"><img src="assets/img/icones/googleplus.png"></a>
+                                        <a href="#"><img src="assets/img/icones/linkedin.png"></a>
+                                        <a href="#"><img src="assets/img/icones/pinterest.png"></a>
+                                        <a href="#"><img src="assets/img/icones/twitter.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sliders-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </section><!--Fim padrão light - TEAM-->
+        <section class="default light clients"> <!--padrao LIGHT-->
+            <div class="section-title">Happy clientes</div>
+            <div class="section-desc">Client Reviews</div>
+            <div class="section-body">
+                <div class="section-clients">
+                    <div class="sliders">
+                        <div class="slide">
+                            <div class="slidearea">
+                                <img class="section-client-avatar" src="media/homem2.png">
+                                <div class="section-client-name">John Doe</div>
+                                <div class="section-client-role">Head of PR Departament</div>
+                                <div class="section-client-icon"><img src="assets/img/icones/quote.png" alt=""></div>
+                                <div class="section-client-comment">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                                     typesetting, remaining essentially unchanged.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slidearea">
+                                <img class="section-client-avatar" src="media/homem2.png">
+                                <div class="section-client-name">John Doe</div>
+                                <div class="section-client-role">Head of PR Departament</div>
+                                <div class="section-client-icon"><img src="assets/img/icones/quote.png" alt=""></div>
+                                <div class="section-client-comment">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                                     typesetting, remaining essentially unchanged.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="sliders-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fim padrão light clients-->
+        <section class="partners">
+            <div class="partner">
+                <img class="section-partner" src="media/empresa1.png">
+            </div>
+            <div class="partner">
+                <img class="section-partner" src="media/empresa2.png">
+            </div>
+            <div class="partner">
+                <img class="section-partner" src="media/empresa3.png">
+            </div>
+            <div class="partner">
+                <img class="section-partner" src="media/empresa4.png">
+            </div>
+            <div class="partner">
+                <img class="section-partner" src="media/empresa5.png">
+            </div>
+            <div class="partner">
+                <img class="section-partner" src="media/empresa6.png">
+            </div>
+        </section><!--Fim section de parceiros-->
+
+        <section class="default light table-pricing"> <!--padrao LIGHT-->
+            <div class="section-title">Price</div>
+            <div class="section-desc">Pricing table</div>
+            <div class="section-body">
+                <div class="section-price">
+                    <div class="section-prices">
+                        <div class="section-price-title">Express</div>
+                        <div class="section-price-prices">$ 9.99</div>
+                        <div class="section-price-period">/month</div>
+                        <div class="section-price-desc">
+                            <p>Tracking issues<br>---</p>
+                            <p>Add bugs through email<br>---</p>
+                            <p>Notifications<br>---</p>
+                            <p>Time tracking<br>---</p>
+                            <p>Custom views</p>
+                        </div>
+                        <a href="#" class="button price">Choose</a>
+                    </div>
+                    <div class="section-prices">
+                        <div class="section-price-title">Standart</div>
+                        <div class="section-price-prices">$ 14.99</div>
+                        <div class="section-price-period">/month</div>
+                        <div class="section-price-desc">
+                            <p>Tracking issues<br>---</p>
+                            <p>Add bugs through email<br>---</p>
+                            <p>Notifications<br>---</p>
+                            <p>Time tracking<br>---</p>
+                            <p>Custom views</p>
+                        </div>
+                        <a href="#" class="button price">Choose</a>
+                    </div>
+                    <div class="section-prices">
+                        <div class="section-price-title">Luxe</div>
+                        <div class="section-price-prices">$ 19.99</div>
+                        <div class="section-price-period">/month</div>
+                        <div class="section-price-desc">
+                            <p>Tracking issues<br>---</p>
+                            <p>Add bugs through email<br>---</p>
+                            <p>Notifications<br>---</p>
+                            <p>Time tracking<br>---</p>
+                            <p>Custom views</p>
+                        </div>
+                        <a href="#" class="button price">Choose</a>
+                    </div>
+                    <div class="section-prices">
+                        <div class="section-price-title">Premium</div>
+                        <div class="section-price-prices">$ 24.99</div>
+                        <div class="section-price-period">/month</div>
+                        <div class="section-price-desc">
+                            <p>Tracking issues<br>---</p>
+                            <p>Add bugs through email<br>---</p>
+                            <p>Notifications<br>---</p>
+                            <p>Time tracking<br>---</p>
+                            <p>Custom views</p>
+                        </div>
+                        <a href="#" class="button price">Choose</a>
+
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fim padrão light-->
+        <section class="default light book"> <!--padrao LIGHT-->
+            <div class="section-title">Happy clientes</div>
+            <div class="section-desc">Client Reviews</div>
+            <div class="section-body">
+                <div class="section-book">
+                    <div class="sliders">
+                        <div class="slide">
+                            <div class="slidearea">
+                               <div class="section-book-left">
+                                    <img src="media/livros.png">
+                               </div>
+                               <div class="section-book-right"> <!--Div para facilitar o agrupamento da descrição-->
+                                    <div class="section-book-desc">
+                                        <img src="assets/img/icones/check.png">
+                                        <div> <!--Para o título ficar ao lado-->
+                                            <h3>First feature</h3>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. <br>
+                                            --Feature one<br>
+                                            --Feature two<br>
+                                            --Feature three<br>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="section-book-desc">
+                                        <img src="assets/img/icones/check.png">
+                                        <div>
+                                            <h3>Second feature</h3>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br>
+                                        </div>
+
+                                    </div>
+                                    <div class="section-book-desc">
+                                        <img src="assets/img/icones/check.png">
+                                        <div>
+                                            <h3>Third feature</h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. 
+                                        </div>
+                                    </div>
+                               </div> 
+                                
+                           </div>
+                            </div>
+                        </div>
+                    <div class="sliders-pointers">
+                        <div class="pointer active"></div>
+                        <div class="pointer"></div>
+                        <div class="pointer"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fim padrão light clients-->
+    </section> <!--Fim padrão light-->
+    <section class="default dark facts"> <!--padrao DARK -->
+        <div class="section-title">
+            Some facts
+        </div>
+        <div class="section-desc">
+            About our work
+        </div>
+        <div class="section-body">
+            <div class="section-fact">
+                <div class="section-facts">
+                    <h4>1000</h4>
+                    <div class="section-facts-bar"></div>
+                    <h3>Design projects released</h3>
+                    <p>Donec tincidunt cursus</p>
+                
+                </div>
+                <div class="section-facts">
+                    <h4>900</h4>
+                    <div class="section-facts-bar"></div>
+                    <h3>Photos</h3>
+                    <p>Donec tincidunt cursus</p>
+                </div>
+                <div class="section-facts">
+                    <h4>500</h4>
+                    <div class="section-facts-bar"></div>
+                    <h3>Marketing ideas</h3>
+                    <p>Donec tincidunt cursus</p>
+                </div>
+                <div class="section-facts">
+                    <h4>100</h4>
+                    <div></div>
+                    <h3>Exhibitions</h3>
+                    <p>Donec tincidunt cursus</p>
+                </div>
+            </div>
+        </div>
+    </section> <!--Fim padrão dark-->
+    <section class="section-share">
+        <div class="section-share-legend">
+            <img src="assets/img/icones/share.png">
+            <p>Tell about Us: </p>
+        </div>
+        <div class="section-share-icons">
+            <div class="section-share-icon twitter">
+                <img src="assets/img/icones/twitter.png">
+            </div>
+            152
+        </div>
+        <div class="section-share-icons">
+            <div class="section-share-icon linkedin">
+                <img src="assets/img/icones/linkedin.png">
+            </div>
+            152
+        </div>
+        <div class="section-share-icons">
+            <div class="section-share-icon facebook">
+                <img src="assets/img/icones/facebook.png">
+            </div>
+            152
+        </div>
+        <div class="section-share-icons">
+            <div class="section-share-icon googleplus">
+                <img src="assets/img/icones/googleplus.png">
+            </div>
+            152
+        </div>
+        <div class="section-share-icons">
+            <div class="section-share-icon pinterest">
+                <img src="assets/img/icones/pinterest.png">
+            </div>
+            152
+        </div>
+    </section>
+    <section class="default light contact"> <!--padrao LIGHT-->
+        <div class="section-title">Contact us</div>
+        <div class="section-desc">Our agency located in melbourne, Australia</div>
+        <div class="section-body">
+            <div class="section-contact">
+                <form method="POST">
+                    <div class="section-contact-split">
+                        <input type="text" name="name" id="name" placeholder="NAME">
+                        <input type="text" name="email" id="email" placeholder="EMAIL">
+                    </div>
+                    <input type="text" name="subject" placeholder="SUBJECT">
+                    <textarea name="message" placeholder="MESSAGE"></textarea>
+                    <input type="submit" value="Send Message" class="button">
+                </form>
+            </div>
+        </div>
+    </section> <!--Fim padrão light-->
+    <section class="section-map">
+        <div class="section-map-area">
+            <div class="section-map-info">
+                <div class="section-map-info-item">
+                    <div class="section-map-info-item-img">
+                        <img src="assets/img/icones/carta.png">
+                    </div>
+                    Endereço completão que irá ter algum tamanho
+                </div>
+                <div class="section-map-info-item">
+                    <div class="section-map-info-item-img">
+                        <img src="assets/img/icones/carta.png">
+                    </div>
+                    Endereço completão que irá ter algum tamanho
+                </div>
+                <div class="section-map-info-item">
+                    <div class="section-map-info-item-img">
+                        <img src="assets/img/icones/carta.png">
+                    </div>
+                    Endereço completão que irá ter algum tamanho
+                </div>
+                <div class="section-map-info-item">
+                    <div class="section-map-info-item-img">
+                        <img src="assets/img/icones/carta.png">
+                    </div>
+                    Endereço completão que irá ter algum tamanho
+                </div>
+                <div class="section-map-info-item">
+                    <div class="section-map-info-item-img">
+                        <img src="assets/img/icones/carta.png">
+                    </div>
+                    Endereço completão que irá ter algum tamanho
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-area">
+            <div class="footer-item area1">
+                <div class="footer-social">
+                    <a href=""><img src="assets/img/icones/twitter.png"></a>
+                    <a href=""><img src="assets/img/icones/linkedin.png"></a>
+                    <a href=""><img src="assets/img/icones/facebook.png"></a>
+                    <a href=""><img src="assets/img/icones/googleplus.png"></a>
+                    <a href=""><img src="assets/img/icones/pinterest.png"></a>
+                </div>
+            </div>
+            <div class="footer-item area2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed vel eros vitae erat condimentum viverra a nec lacus. 
+                    Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. 
+                    Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta 
+                    aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.</p>
+            </div>
+            <div class="footer-item area3">
+                <form method="POST">
+                    <input type="email" name="email" placeholder="EMAIL TO SUBSCRIBE">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
