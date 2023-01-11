@@ -75,7 +75,7 @@ header{
 .banner{
     height: calc(100vh - 100px);/*100vh - 100px do header, evita a barra de rolagem do background*/
     background-color: #333;
-    background-image: url('../media/bg.jpg');
+    background-image: url(https://larissapucci.github.io/Projeto-Awax/media/bg.jpg);
     background-size:cover ;
     background-position: bottom; /*Vai priorizar a parte inferior da imagem*/
     overflow: hidden;
@@ -753,7 +753,7 @@ footer{
 }
 
 .section-map{
-    background-image: url(../media/mapa.jpg);
+    background-image: url(https://larissapucci.github.io/Projeto-Awax/media/mapa.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 30px;
